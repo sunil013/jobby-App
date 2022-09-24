@@ -1,0 +1,133 @@
+.job-card-container {
+  background-color: #202020;
+  list-style-type: none;
+  border-radius: 10px;
+  padding: 25px 20px 25px 20px;
+  margin-bottom: 15px;
+}
+.company-logo-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.company-logo {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+.company-title {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 500;
+  color: #ffffff;
+}
+.rating-container {
+  display: flex;
+  align-items: center;
+  margin-top: 6px;
+}
+.star-rating {
+  width: 15px;
+  height: 15px;
+  color: gold;
+  margin-right: 5px;
+}
+.company-rating {
+  font-family: Roboto;
+  color: #ffffff;
+  font-weight: 800;
+  font-size: 16px;
+}
+.location-role-icons {
+  height: 15px;
+  width: 15px;
+  color: #ffffff;
+  margin-right: 5px;
+}
+.location-role-names {
+  font-family: Roboto;
+  font-weight: normal;
+  color: #cbd5e1;
+  font-size: 14px;
+}
+.location-role {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+.location-role-container {
+  display: flex;
+  align-items: center;
+}
+.company-package {
+  font-size: 15px;
+  color: #cbd5e1;
+  font-weight: 700;
+  font-family: Roboto;
+}
+.salary-location-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.description-heading {
+  color: #cbd5e1;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.job-description {
+  color: #cbd5e1;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: normal;
+}
+.job-card-link {
+  text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
+  .job-card-container {
+    padding: 25px;
+  }
+  .company-title {
+    font-size: 28px;
+    font-weight: 600;
+  }
+  .company-logo {
+    margin-right: 15px;
+  }
+  .location-role-icons {
+    height: 20px;
+    width: 20px;
+    margin-right: 8px;
+  }
+  .location-role-names {
+    font-size: 16px;
+  }
+  .location-role {
+    margin-right: 15px;
+  }
+  .company-package {
+    font-size: 18px;
+  }
+  .salary-location-container {
+    margin-top: 20px;
+  }
+  .description-heading {
+    font-size: 20px;
+  }
+  .job-description {
+    font-size: 17px;
+  }
+  .company-rating {
+    font-size: 18px;
+  }
+  .star-rating {
+    width: 18px;
+    height: 18px;
+  }
+}

@@ -1,0 +1,336 @@
+.job-details-container {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 90%;
+  max-width: 1200px;
+}
+.job-details-section {
+  background-color: #000000;
+  min-height: 90vh;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.details-failure-loader-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+}
+.job-details-failure-img {
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 10px;
+}
+.job-details-failure-heading {
+  font-family: Roboto;
+  font-size: 24px;
+  color: #ffffff;
+  font-weight: 500;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.job-details-failure-text {
+  font-family: Roboto;
+  font-size: 14px;
+  color: #cbd5e1;
+  font-weight: normal;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.job-details-failure-button {
+  color: #ffffff;
+  font-family: Roboto;
+  font-weight: 600;
+  font-size: 14px;
+  border-width: 0px;
+  background-color: #6366f1;
+  width: 100px;
+  height: 35px;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+}
+
+.job-details-card-container {
+  background-color: #202020;
+  border-radius: 10px;
+  padding: 25px 20px 25px 20px;
+  margin-bottom: 15px;
+}
+.details-company-logo-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.details-company-logo {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+.details-company-title {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 500;
+  color: #ffffff;
+}
+.details-rating-container {
+  display: flex;
+  align-items: center;
+  margin-top: 6px;
+}
+.details-star-rating {
+  width: 15px;
+  height: 15px;
+  color: gold;
+  margin-right: 5px;
+}
+.details-company-rating {
+  font-family: Roboto;
+  color: #ffffff;
+  font-weight: 800;
+  font-size: 16px;
+}
+.details-location-role-icons {
+  height: 15px;
+  width: 15px;
+  color: #ffffff;
+  margin-right: 5px;
+}
+.details-location-role-names {
+  font-family: Roboto;
+  font-weight: normal;
+  color: #cbd5e1;
+  font-size: 14px;
+}
+.details-location-role {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+.details-location-role-container {
+  display: flex;
+  align-items: center;
+}
+.details-company-package {
+  font-size: 15px;
+  color: #cbd5e1;
+  font-weight: 700;
+  font-family: Roboto;
+}
+.details-salary-location-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.details-description-heading {
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.details-job-description {
+  color: #cbd5e1;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.5;
+}
+.skills-heading {
+  font-family: Roboto;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.skills-images {
+  height: 30px;
+  margin-right: 10px;
+}
+.skills-container {
+  padding-left: 0px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.each-skill-item {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  margin-right: 35px;
+  margin-bottom: 30px;
+}
+.skills-names {
+  font-family: Roboto;
+  color: #cbd5e1;
+  font-size: 15px;
+  font-weight: 500;
+}
+.life-at-heading {
+  font-family: Roboto;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+.life-at-description {
+  color: #cbd5e1;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.5;
+}
+.life-at-image {
+  width: 100%;
+  margin-top: 15px;
+}
+.visit-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: transparent;
+  border-width: 0px;
+  cursor: pointer;
+  outline: none;
+}
+.visit-text {
+  color: #6366f1;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 18px;
+}
+.visit-icon {
+  color: #6366f1;
+  height: 20px;
+  width: 20px;
+  margin-left: 5px;
+}
+.description-visit-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.visit-link {
+  text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
+  .job-details-card-container {
+    padding: 25px;
+  }
+  .details-company-title {
+    font-size: 28px;
+    font-weight: 600;
+  }
+  .details-company-logo {
+    margin-right: 15px;
+    width: 55px;
+    height: 55px;
+  }
+  .details-location-role-icons {
+    height: 20px;
+    width: 20px;
+    margin-right: 8px;
+  }
+  .details-location-role-names {
+    font-size: 16px;
+  }
+  .details-location-role {
+    margin-right: 15px;
+  }
+  .details-company-package {
+    font-size: 18px;
+  }
+  .details-salary-location-container {
+    margin-top: 20px;
+  }
+  .details-description-heading {
+    font-size: 26px;
+  }
+  .details-job-description {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  .details-company-rating {
+    font-size: 18px;
+  }
+  .details-star-rating {
+    width: 18px;
+    height: 18px;
+  }
+  .skills-heading {
+    font-size: 26px;
+    font-weight: 500;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .skills-images {
+    height: 50px;
+  }
+  .skills-names {
+    font-size: 24px;
+  }
+  .each-skill-item {
+    margin-right: 100px;
+    margin-bottom: 40px;
+  }
+  .life-at-heading {
+    font-size: 26px;
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+  .life-at-description {
+    font-size: 20px;
+    line-height: 2;
+  }
+  .life-at-container {
+    display: flex;
+    flex-direction: row;
+  }
+  .description-container {
+    width: 62%;
+    padding-right: 20px;
+  }
+  .life-at-image {
+    width: 35%;
+    max-height: 250px;
+    margin-top: 0px;
+  }
+  .job-details-section {
+    padding-top: 35px;
+    padding-bottom: 30px;
+  }
+  .visit-text {
+    font-size: 23px;
+  }
+  .visit-icon {
+    height: 28px;
+    width: 28px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .job-details-failure-heading {
+    font-size: 35px;
+    margin-bottom: 15px;
+  }
+  .job-details-failure-text {
+    font-size: 16px;
+    margin-bottom: 12px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .job-details-card-container {
+    padding: 35px;
+  }
+}

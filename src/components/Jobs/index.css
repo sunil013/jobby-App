@@ -1,0 +1,27 @@
+.job-section-container {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 90%;
+  max-width: 1200px;
+}
+.job-section {
+  background-color: #000000;
+  min-height: 90vh;
+}
+
+@media screen and (min-width: 768px) {
+  .job-section-container {
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+  }
+  .jobs-search-container {
+    width: 30%;
+    flex-shrink: 1;
+    padding-top: 10px;
+  }
+  .mobile-search {
+    display: none;
+  }
+}

@@ -1,0 +1,120 @@
+.similar-logo-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.similar-company-logo {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+.similar-company-title {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 500;
+  color: #ffffff;
+}
+.similar-rating-container {
+  display: flex;
+  align-items: center;
+  margin-top: 6px;
+}
+.similar-star-rating {
+  width: 15px;
+  height: 15px;
+  color: gold;
+  margin-right: 5px;
+}
+.similar-company-rating {
+  font-family: Roboto;
+  color: #ffffff;
+  font-weight: 800;
+  font-size: 16px;
+}
+.similar-jobs-container {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.each-similar-card {
+  background-color: #202020;
+  border-radius: 10px;
+  padding: 10px;
+  list-style-type: none;
+  width: 100%;
+  max-width: 350px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+.similar-jobs {
+  padding-left: 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.similar-description-heading {
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  margin-top: 15px;
+}
+.similar-job-description {
+  color: #cbd5e1;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.5;
+}
+
+.similar-location-role-icons {
+  height: 15px;
+  width: 15px;
+  color: #ffffff;
+  margin-right: 5px;
+}
+.similar-location-role-names {
+  font-family: Roboto;
+  font-weight: normal;
+  color: #cbd5e1;
+  font-size: 14px;
+}
+.similar-location-role {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+.similar-location-role-container {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .each-similar-card {
+    margin-right: 30px;
+    margin-bottom: 25px;
+    padding: 30px 20px 30px 20px;
+  }
+  .similar-job-description {
+    font-size: 16px;
+  }
+  .similar-company-title {
+    font-size: 20px;
+  }
+  .similar-location-role-names {
+    font-size: 16px;
+  }
+  .similar-location-role-container {
+    margin-top: 20px;
+  }
+  .similar-description-heading {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .similar-location-role-icons {
+    width: 20px;
+    height: 20px;
+  }
+}

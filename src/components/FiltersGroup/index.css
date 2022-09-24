@@ -1,0 +1,58 @@
+.filters-heading {
+  color: #f1f5f9;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 18px;
+}
+.labels {
+  font-family: Roboto;
+  font-size: 13px;
+  color: #cbd5e1;
+  margin-left: 10px;
+  cursor: pointer;
+  outline: none;
+}
+.employment-salary-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+.list-items-filter {
+  padding-left: 0px;
+  display: flex;
+  flex-direction: column;
+}
+.each-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  cursor: pointer;
+  outline: none;
+}
+.check-box {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+  outline: none;
+}
+.separator {
+  border: #b6c5ff 1px solid;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.radio-box {
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+  outline: none;
+}
+
+@media screen and (min-width: 768px) {
+  .filters-heading {
+    font-size: 16px;
+  }
+  .labels {
+    font-size: 14px;
+  }
+}
