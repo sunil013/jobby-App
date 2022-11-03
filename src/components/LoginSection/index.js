@@ -89,6 +89,7 @@ class LoginSection extends Component {
               Login
             </button>
             {showErrMsg && <p className="error-msg">*{errorMsg}</p>}
+            <p className="login-name-pass">Name: raja, Pass: raja@2021</p>
           </form>
         </div>
       </div>

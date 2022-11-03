@@ -71,3 +71,9 @@
     padding-left: 10px;
   }
 }
+
+.login-name-pass {
+  font-family: 'Roboto';
+  color: gray;
+  margin-top: 10px;
+}
